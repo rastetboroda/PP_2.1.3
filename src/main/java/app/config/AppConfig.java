@@ -8,8 +8,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "app")
 public class AppConfig {
-    @Bean
-    public Timer timer(){
-        return new Timer();
-    }
 }
